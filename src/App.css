@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.clock-container{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app-desc{
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.current-time{
+  font-size: 1.3rem;
+  font-weight: 250;
+}

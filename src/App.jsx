@@ -5,9 +5,11 @@ import CurrentTime from "./CurrentTime";
 function App() {
   return (
     <div className="clock-container">
-      <AppName></AppName>
-      <AppDesc></AppDesc>
-      <CurrentTime></CurrentTime>
+      <div className="clock">
+        <AppName></AppName>
+        <AppDesc></AppDesc>
+        <CurrentTime></CurrentTime>
+      </div>
     </div>
   );
 }

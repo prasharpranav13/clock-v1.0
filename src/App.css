@@ -2,12 +2,26 @@
   margin: 0;
   padding: 0;
 }
+
 .clock-container{
   width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: linear-gradient(to right top, #8db5f1, #8dd5f4, #80eff5, #4fc18f, #e4f5be);}
+.clock{
+  text-align: center;
+  padding: 15px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 5px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .app-desc{
   font-size: 1.3rem;
